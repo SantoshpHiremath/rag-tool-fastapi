@@ -8,7 +8,7 @@ TestClient, built on httpx), not by calling internal functions directly
 error handling. Uses AGENT_MODE=stub (StubAgentRunner) so the suite runs
 fully offline with no Ollama dependency. Mirrors the equivalent Flask
 suite in rag-tool-api/tests/test_api.py test-for-test, so the two
-services can be honestly claimed as offering the same verified contract.
+services offer the same verified contract.
 """
 
 import sys

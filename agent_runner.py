@@ -9,7 +9,7 @@ The real agent (agent.py / rag_tool.py / calculator_tool.py in that repo)
 depends on a locally-running Ollama instance to serve the LLM and the
 embedding model. That's the correct way to run it for real use, but it
 makes the API impossible to unit-test in an environment without Ollama
-installed (like a CI runner, or this sandbox).
+installed (like a CI runner).
 
 So this module defines a small AgentRunner protocol with two
 implementations:
